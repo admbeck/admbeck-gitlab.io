@@ -3,40 +3,46 @@ body {
 	margin: auto;
 	background-color: #ffe4b5;
 }
+
 .navbar {
 	background-color: #556b2f;
 	border-radius: 2px;
 	text-align: center;
 }
+
 .navbar a {
 	color: #ffdead;
 	display: inline-block;
 	font-size: 15px;
 	padding: 10px;
-	text-decoration: underline;
+	text-decoration: none;
 }
+
 .navbar a:hover {
 	color: #fffaf0;
 }
-.leftheader {
+.header {
 	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 1;
+}
+.leftheader {
 	float: left;
 }
+
 .leftheader h1 {
-	font-size: 3vw;
-	word-spacing: 1px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	/* text-align: center; */
+	font-size: 30px;
+	font-size: 3.5vw;
 }
+
 .rightheader {
 	float: right;
-	margin-right: 10%;
 }
+
 .rightheader h2 {
 	text-align: right;
-	margin-top: 50%;
 }
+
 .mainblock {
 	clear: both;
 	border: 5px solid #556b2f;
@@ -44,5 +50,22 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
-	padding: 0.5%
+	padding: 0 1% 0
+}
+
+.mainblock img {
+	float: right;
+	width: 20%;
+}
+
+.quote {
+	max-width: 30em;
+	margin: auto;
+	font-size: 10px;
+}
+
+.quotename {
+	text-align: right;
+	font-size: 8px;
+	line-height: 0.3;
 }
