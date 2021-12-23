@@ -1,71 +1,252 @@
+:root {
+	--genwidth: 850px ;
+	--navwidth: 175px ;
+	--fg: #000;
+	--altfg: #ccc ;
+	--fgemph: white ;
+	--bg: wheat ;
+	--altbg: burlywood ;
+	--navbg: darkolivegreen ;
+	--emph: #333 ;
+	--bordercolor: #555 ;
+	--limish: #0e0 ;
+	--h1: #000 ;
+	--h2: #000 ;
+	--h3: #000 ;
+	--h4: #000 ;
+	--a: #000 ;
+	--dt: #000 ;
+}
+
 body {
 	font-family: sans-serif;
-	margin: auto;
-	background-color: #ffe4b5;
+	background: var(--bg);
+	margin-bottom: 100px;
 }
 
-.navbar {
-	background-color: #556b2f;
+main, nav, footer {
+	box-shadow: 5px 5px 5px 5px rgba( 0, 0, 0, 0.3 );
+}
+
+main {
+	margin: auto;
+	color: var(--fg);
+	background: var(--bg);
+	border: dashed 1px var(--bordercolor);
+	padding: 1em;
 	border-radius: 2px;
+}
+
+header h1 {
+	font-size: xxx-large;
+}
+
+p img, li img, h1 img, h2 img, h3 img, h4 img, dt img {
+	max-height: 1em;
+	max-width: 1em;
+	vertical-align: middle ;
+}
+
+sup {
+	vertical-align: small-caps;
+}
+
+nav {
+	font-variant: small-caps;
+}
+
+nav,footer {
 	text-align: center;
-}
-
-.navbar a {
-	color: #ffdead;
-	display: inline-block;
-	font-size: 15px;
-	padding: 10px;
-	text-decoration: none;
-}
-
-.navbar a:hover {
-	color: #fffaf0;
-}
-.header {
-	margin-left: 10%;
-	margin-right: 10%;
-	line-height: 1;
-}
-.leftheader {
-	float: left;
-}
-
-.leftheader h1 {
-	font-size: 30px;
-	font-size: 3.5vw;
-}
-
-.rightheader {
-	float: right;
-}
-
-.rightheader h2 {
-	text-align: right;
-}
-
-.mainblock {
 	clear: both;
-	border: 5px solid #556b2f;
-	border-radius: 6px;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 5%;
-	padding: 0 1% 0
-}
-
-.mainblock img {
-	float: right;
-	width: 20%;
-}
-
-.quote {
-	max-width: 30em;
+	background: var(--navbg);
+	border-radius: 2px;
 	margin: auto;
-	font-size: 10px;
+	border: dashed 1px var(--bordercolor);
+	max-width: var(--genwidth);
+}
+
+footer {
+	color: var(--altfg);
+	margin-top: 1em;
+	font-size: small;
+	overflow-wrap: break-word;
+}
+
+nav {
+	max-width: var(--genwidth)
+}
+
+nav li,footer li {
+	display: inline-block;
+	list-style: none;
+	background: var(--bg);
+	border-radius: 10px;
+	padding: .5em;
+	max-width: 7em;
+}
+
+nav ul, footer ul, #taglist {
+	padding: 0;
+	margin: .5em;
+}
+
+
+
+nav a:hover li, footer a:hover li,#tagcloud a:hover li {
+	background: var(--altbg);
+	color: black;
+	box-shadow: 2px 2px black;
+}
+
+strong { color: var(--fgemph); }
+
+a strong { color: var(--limish); }
+
+details { padding-left: 20px; text-decoration: underline; }
+
+pre {
+	background: var(--bg);
+	border: 1px solid var(--limish);
+	border-radius: 20px;
+	padding: 1em;
+	margin: 1em;
+	white-space: pre-wrap;
+}
+
+code {
+	background: var(--bg);
+	color: var(--limish);
+	border-radius: 5px;
+	overflow-wrap: break-word;
+}
+
+ul {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1,h2,h3,h4 {
+	font-family: "EB Garamond", Garamond, Serif;
+	text-align: center;
+	text-shadow: 1px 1px var(--emph);
+	font-weight: normal;
+}
+
+h1 { color: var(--h1) }
+
+h2 { color: var(--h2) }
+
+h3 { color: var(--h3) }
+
+h4 { color: var(--h4) }
+
+a { color: var(--a); text-decoration: none ; }
+
+a:hover { color: var(--ahover) }
+
+dt { font-weight: bold; color: var(--dt) }
+
+.disappear {
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	nav {
+		float: left ;
+		width: 175px ;
+		position: fixed ;
+		text-align: left ;
+		font-size: large ;
+	}
+	nav::before {
+		content: "Links" ;
+		text-align: center ;
+		display: block ;
+		font-size: large ;
+		color: var(--bg) ;
+		text-decoration: underline ;
+		margin-top: .5em ;
+	}
+	nav li {
+		display: block ;
+		text-align: center ;
+		margin: .5em auto ;
+	}
+
+}
+
+@media (min-width: 55em) {
+
+	.resright, .disappear {
+		display: block ;
+		float: right;
+		padding: 20px ;
+		clear: both ;
+		max-height: 300px ;
+		max-width: 300px ;
+	}
+
+	.resmid {
+		max-height: 300px ;
+		max-width: 300px ;
+	}
+
+	main {
+		max-width: var(--genwidth) ;
+	}
+
+	.column {
+		float: left;
+		width: 50% ;
+	}
+
 }
 
 .quotename {
-	text-align: right;
-	font-size: 8px;
+	font-size: 10px;
 	line-height: 0.3;
+}
+
+.entry p, .entry li { margin-left: 2em ; }
+
+figure img { max-width: 100% ; margin: auto ; }
+
+figcaption { font-style: italic ; font-size: small ; }
+
+figure { text-align: center; }
+
+#toc {
+	font-size: x-large ;
+	margin-left: auto ;
+	margin-right: auto ;
+	max-width: 500px ;
+
+}
+
+.entryinfo {
+	text-align: center ;
+	font-size: x-small ;
+	margin: 0 ;
+}
+
+aside {
+	font-style: italic ;
+	font-size: small ;
+	color: lightgray ;
+	margin-left: 3em ;
+	margin-right: 3em ;
+	padding: 0 1em 0 1em ;
+	border: 1px solid black ;
+	border-radius: 20px ;
+}
+
+.titleimg {
+	margin: auto ;
+	max-width: 90% ;
+	display: block ;
+}
+
+.resmid {
+	margin: auto ;
+	display: block ;
 }
