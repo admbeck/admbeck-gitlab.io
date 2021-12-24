@@ -9,7 +9,7 @@
 	--navbg: darkolivegreen ;
 	--emph: tan ;
 	--bordercolor: #555 ;
-	--limish: darkolivegreen ;
+	--linkbox: darkolivegreen ;
 	--h1: #000 ;
 	--h2: #000 ;
 	--h3: #000 ;
@@ -101,13 +101,13 @@ nav a:hover li, footer a:hover li,#tagcloud a:hover li {
 
 strong { color: var(--fgemph); }
 
-a strong { color: var(--limish); }
+a strong { color: var(--linkbox); }
 
 details { padding-left: 20px; text-decoration: underline; }
 
 pre {
 	background: var(--bg);
-	border: 1px solid var(--limish);
+	border: 1px solid var(--linkbox);
 	border-radius: 20px;
 	padding: 1em;
 	margin: 1em;
@@ -116,7 +116,7 @@ pre {
 
 code {
 	background: var(--bg);
-	color: var(--limish);
+	color: var(--linkbox);
 	border-radius: 5px;
 	overflow-wrap: break-word;
 }
@@ -303,3 +303,5 @@ aside {
 #taglist::before { content: "This article is tagged as:" ; display: block; font-size: small ; }
 
 #taglist::after { content: "Click the links above for related articles." ; display: block ;  font-size: small ;}
+
+
