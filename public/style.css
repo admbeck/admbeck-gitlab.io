@@ -9,13 +9,13 @@
 	--navbg: darkolivegreen ;
 	--emph: tan ;
 	--bordercolor: #555 ;
-	--limish: #0e0 ;
+	--limish: darkolivegreen ;
 	--h1: #000 ;
 	--h2: #000 ;
 	--h3: #000 ;
 	--h4: #000 ;
 	--a: darkolivegreen ;
-	--ahover: #0e0 ;
+	--ahover: tan ;
 	--dt: #000 ;
 }
 
@@ -224,6 +224,22 @@ figure { text-align: center; }
 
 }
 
+#toc li { padding: 5px }
+
+.new a {
+	color: yellow ;
+}
+
+.new a:hover {
+	color: magenta ;
+}
+
+.new::after {
+	content: " 🆕" ;
+	/* content: " (New 🎁)" ; */
+	color: goldenrod ;
+}
+
 .entryinfo {
 	text-align: center ;
 	font-size: x-small ;
@@ -251,3 +267,39 @@ aside {
 	margin: auto ;
 	display: block ;
 }
+
+#tagcloud {
+	font-size: large ;
+	padding: 0;
+	font-variant: small-caps ;
+	background: var(--navbg) ;
+	border-radius: 10px ;
+	text-align: center ;
+	margin: 0 auto ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+	padding: 5px ;
+	margin: 3px ;
+	width: auto ;
+	background: var(--bg) ;
+	border-radius: 10px ;
+}
+
+#taglist {
+	max-width: 300px ;
+	margin: auto ;
+	text-align: center ;
+	display: block ;
+}
+
+#taglist li {
+	display: inline-block ;
+	padding-right: 0.5em ;
+	padding-left: 0.5em ;
+}
+
+#taglist::before { content: "This article is tagged as:" ; display: block; font-size: small ; }
+
+#taglist::after { content: "Click the links above for related articles." ; display: block ;  font-size: small ;}
