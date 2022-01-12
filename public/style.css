@@ -303,5 +303,3 @@ aside {
 #taglist::before { content: "This article is tagged as:" ; display: block; font-size: small ; }
 
 #taglist::after { content: "Click the links above for related articles." ; display: block ;  font-size: small ;}
-
-
