@@ -1,0 +1,11 @@
+{{ block "footer" . }}
+<footer>
+    <p>
+    <i>“Nature is pleased with simplicity. And nature is no dummy.”</i>
+    </p>
+    <p class="quotename">
+    - Isaac Newton
+    </p>
+    {{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+</footer>
+{{ end }}

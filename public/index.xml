@@ -1,0 +1,73 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Zakhidov Beck&#39;s Webpage</title>
+	<link>https://admbeck.gitlab.io/</link>
+	<description>Recent content in Zakhidov Nodirbek&#39;s Webpage on Zakhidov Beck&#39;s Webpage</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="https://admbeck.gitlab.io/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Contact Me</title>
+		<link>https://admbeck.gitlab.io/contacts/</link>
+		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+		
+		<guid>https://admbeck.gitlab.io/contacts/</guid>
+		<description>
+
+&lt;img class=titleimg src=&#34;https://admbeck.gitlab.io/img/envelope.gif&#34; alt=&#34;Envelopes gif&#34; title=&#34;Evelopes&#34; style=&#34;max-width: 20%&#34;&gt;
+
+&lt;h2&gt;🌐 Digital Contacts&lt;/h2&gt;
+&lt;div class=&#34;contacts&#34;&gt;
+    &lt;ul id=&#34;tagcloud&#34;&gt;
+        &lt;a href=&#34;mailto:admbeck@outlook.com&#34;&gt;&lt;li&gt;📧Email&lt;/li&gt;&lt;/a&gt;
+        &lt;a href=&#34;https://t.me/admbeck&#34;&gt;&lt;li&gt;&lt;img src=&#34;https://admbeck.gitlab.io/img/telegram.svg&#34; alt=&#34;Telegram logo&#34;&gt;Telegram&lt;/li&gt;&lt;/a&gt;
+    &lt;/ul&gt;
+
+&lt;h2&gt;💼 Work&lt;/h2&gt;
+&lt;ul id =&#34;tagcloud&#34;&gt;
+    &lt;a href=&#34;https://admbeck.gitlab.io/cv.pdf&#34;&gt;&lt;li&gt;📇CV&lt;/li&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.linkedin.com/in/zakhidov-beck/&#34;&gt;&lt;li&gt;&lt;img src=&#34;https://admbeck.gitlab.io/img/linkedin.svg&#34; alt=&#34;LinkedIn logo&#34;&gt;LinkedIn&lt;/li&gt;&lt;/a&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+
+</description>
+	</item>
+	
+	<item>
+		<title>Reference</title>
+		<link>https://admbeck.gitlab.io/reference/</link>
+		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+		
+		<guid>https://admbeck.gitlab.io/reference/</guid>
+		<description>&lt;h2 id=&#34;linux&#34;&gt;🐧Linux&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2021-linux-3.pdf&#34;&gt;Micros - &amp;ldquo;Linux Network Administration&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2021-linux-2.pdf&#34;&gt;Micros - &amp;ldquo;Linux System Administration&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2020-linux-1.pdf&#34;&gt;Micros - &amp;ldquo;Linux Essentials&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;networks&#34;&gt;🌐Networks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2022-01-11_CCNA200-301.pdf&#34;&gt;CCNA 200-301&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/CCNAv7-3.pdf&#34;&gt;CCNAv7: Enterprise Networking, Security, and Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/CCNAv7-2.pdf&#34;&gt;CCNAv7: Switching, Routing, and Wireless Essentials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/CCNAv7-1.pdf&#34;&gt;CCNAv7: Introduction to Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;windows&#34;&gt;🪟Windows&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2021-windows-3.pdf&#34;&gt;Networking with Windows Server 2016 (20741)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2021-windows-2.pdf&#34;&gt;Installation, Storage, and Compute with Windows Server 2016 (20740)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2020-windows-1.pdf&#34;&gt;Installing and Configuring Winodws 10 (20698)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;academia&#34;&gt;🎓Academia&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/bangor-diploma.pdf&#34;&gt;Bangor University – BSc Finance, Investment and Risk Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
