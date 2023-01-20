@@ -4,10 +4,9 @@ menu: main
 ---
 
 ## 🐧Linux
-* [Micros - "Linux Network Administration"](/ref/2021-linux-3.pdf)
-* [Micros - "Linux System Administration"](/ref/2021-linux-2.pdf)
-* [Micros - "Linux Essentials"](/ref/2020-linux-1.pdf)
-
+* [Linux Network Administration](/ref/2021-linux-3.pdf)
+* [Linux System Administration](/ref/2021-linux-2.pdf)
+* [Linux Essentials](/ref/2020-linux-1.pdf)
 ## 🌐Networks
 * [CCNA 200-301](/ref/2022-01-11_CCNA200-301.pdf)
 * [CCNAv7: Enterprise Networking, Security, and Automation](/ref/CCNAv7-3.pdf)
