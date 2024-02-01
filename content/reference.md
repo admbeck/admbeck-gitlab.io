@@ -21,6 +21,7 @@ menu: main
 
 ## 🖥️Programming
 * [Python Programming and Django Web Site Development](/ref/2023-Python.pdf)
+* [Harvard CS50 Introduction to Computer Science](/ref/2023-cs50.pdf)
 
 ## 🎓Academia
 * [Bangor University &ndash; BSc Finance, Investment and Risk Management](/ref/bangor-diploma.pdf)
