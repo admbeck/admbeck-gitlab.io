@@ -39,10 +39,10 @@
 	
 	<item>
 		<title>Reference</title>
-		<link>https://admbeck.gitlab.io/reference/</link>
+		<link>https://admbeck.gitlab.io/references/</link>
 		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 		
-		<guid>https://admbeck.gitlab.io/reference/</guid>
+		<guid>https://admbeck.gitlab.io/references/</guid>
 		<description>&lt;h2 id=&#34;linux&#34;&gt;🐧Linux&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://admbeck.gitlab.io/ref/2021-linux-3.pdf&#34;&gt;Linux Network Administration&lt;/a&gt;&lt;/li&gt;
